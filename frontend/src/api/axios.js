@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://ai-employee-manager-6j4w.onrender.com/api',
 });
 
 // Request interceptor for adding the JWT token
